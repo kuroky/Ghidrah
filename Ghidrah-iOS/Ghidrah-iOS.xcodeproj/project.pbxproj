@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4758E222BC7416003A0A64 /* EMNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4758E122BC7416003A0A64 /* EMNetworkHandler.m */; };
+		5B4758F022BC8B92003A0A64 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4758EF22BC8B92003A0A64 /* HUDViewController.m */; };
+		5B4758F422BC91D5003A0A64 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4758F322BC91D5003A0A64 /* UserModel.m */; };
+		5B4758F722BC9226003A0A64 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4758F622BC9226003A0A64 /* ModelViewController.m */; };
+		5B4758FE22BCAE71003A0A64 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4758F922BCAE71003A0A64 /* NetworkRequest.m */; };
+		5B47590422BCAE8F003A0A64 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47590222BCAE8F003A0A64 /* WeatherViewController.m */; };
+		5B60B5F022BB8F6200DB4A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60B5EF22BB8F6200DB4A24 /* AppDelegate.m */; };
+		5B60B5F322BB8F6200DB4A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60B5F222BB8F6200DB4A24 /* ViewController.m */; };
+		5B60B5F822BB8F6200DB4A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B60B5F722BB8F6200DB4A24 /* Assets.xcassets */; };
+		5B60B5FB22BB8F6200DB4A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60B5F922BB8F6200DB4A24 /* LaunchScreen.storyboard */; };
+		5B60B5FE22BB8F6200DB4A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60B5FD22BB8F6200DB4A24 /* main.m */; };
+		B59B00E9ADBDCE9D5C720FD5 /* Pods_Ghidrah_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C5A6DAD07442E306EFF26 /* Pods_Ghidrah_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B4758E022BC7416003A0A64 /* EMNetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNetworkHandler.h; sourceTree = "<group>"; };
+		5B4758E122BC7416003A0A64 /* EMNetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNetworkHandler.m; sourceTree = "<group>"; };
+		5B4758EE22BC8B92003A0A64 /* HUDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		5B4758EF22BC8B92003A0A64 /* HUDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		5B4758F222BC91D5003A0A64 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		5B4758F322BC91D5003A0A64 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		5B4758F522BC9226003A0A64 /* ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		5B4758F622BC9226003A0A64 /* ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		5B4758F922BCAE71003A0A64 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		5B4758FC22BCAE71003A0A64 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		5B47590122BCAE8F003A0A64 /* WeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		5B47590222BCAE8F003A0A64 /* WeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		5B60B5EB22BB8F6200DB4A24 /* Ghidrah-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghidrah-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B60B5EE22BB8F6200DB4A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B60B5EF22BB8F6200DB4A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B60B5F122BB8F6200DB4A24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B60B5F222BB8F6200DB4A24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B60B5F722BB8F6200DB4A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B60B5FA22BB8F6200DB4A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B60B5FC22BB8F6200DB4A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B60B5FD22BB8F6200DB4A24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D673EED92D719785090266 /* Pods-Ghidrah-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghidrah-iOS.release.xcconfig"; path = "Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		910C5A6DAD07442E306EFF26 /* Pods_Ghidrah_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghidrah_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BE1FE194A08C6679A377E7 /* Pods-Ghidrah-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghidrah-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B60B5E822BB8F6200DB4A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59B00E9ADBDCE9D5C720FD5 /* Pods_Ghidrah_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA33DF311E665262F5A31C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BE1FE194A08C6679A377E7 /* Pods-Ghidrah-iOS.debug.xcconfig */,
+				63D673EED92D719785090266 /* Pods-Ghidrah-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B4758EB22BC8216003A0A64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B4758F822BCAE71003A0A64 /* Weather */,
+				5B60B60522BB94C100DB4A24 /* Model */,
+				5B4758ED22BC8B6C003A0A64 /* HUD */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B4758ED22BC8B6C003A0A64 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				5B4758EE22BC8B92003A0A64 /* HUDViewController.h */,
+				5B4758EF22BC8B92003A0A64 /* HUDViewController.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		5B4758F822BCAE71003A0A64 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				5B4758FC22BCAE71003A0A64 /* NetworkRequest.h */,
+				5B4758F922BCAE71003A0A64 /* NetworkRequest.m */,
+				5B47590122BCAE8F003A0A64 /* WeatherViewController.h */,
+				5B47590222BCAE8F003A0A64 /* WeatherViewController.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		5B60B5E222BB8F6200DB4A24 = {
+			isa = PBXGroup;
+			children = (
+				5B60B5ED22BB8F6200DB4A24 /* Ghidrah-iOS */,
+				5B60B5EC22BB8F6200DB4A24 /* Products */,
+				3DA33DF311E665262F5A31C1 /* Pods */,
+				A2CEC3CABB5A71A6A073E1DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B60B5EC22BB8F6200DB4A24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B60B5EB22BB8F6200DB4A24 /* Ghidrah-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B60B5ED22BB8F6200DB4A24 /* Ghidrah-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B60B60422BB94B000DB4A24 /* Network */,
+				5B4758EB22BC8216003A0A64 /* Classes */,
+				5B60B5EE22BB8F6200DB4A24 /* AppDelegate.h */,
+				5B60B5EF22BB8F6200DB4A24 /* AppDelegate.m */,
+				5B60B5F122BB8F6200DB4A24 /* ViewController.h */,
+				5B60B5F222BB8F6200DB4A24 /* ViewController.m */,
+				5B60B5F722BB8F6200DB4A24 /* Assets.xcassets */,
+				5B60B5F922BB8F6200DB4A24 /* LaunchScreen.storyboard */,
+				5B60B5FC22BB8F6200DB4A24 /* Info.plist */,
+				5B60B5FD22BB8F6200DB4A24 /* main.m */,
+			);
+			path = "Ghidrah-iOS";
+			sourceTree = "<group>";
+		};
+		5B60B60422BB94B000DB4A24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B4758E022BC7416003A0A64 /* EMNetworkHandler.h */,
+				5B4758E122BC7416003A0A64 /* EMNetworkHandler.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5B60B60522BB94C100DB4A24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B4758F222BC91D5003A0A64 /* UserModel.h */,
+				5B4758F322BC91D5003A0A64 /* UserModel.m */,
+				5B4758F522BC9226003A0A64 /* ModelViewController.h */,
+				5B4758F622BC9226003A0A64 /* ModelViewController.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2CEC3CABB5A71A6A073E1DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910C5A6DAD07442E306EFF26 /* Pods_Ghidrah_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B60B5EA22BB8F6200DB4A24 /* Ghidrah-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B60B60122BB8F6200DB4A24 /* Build configuration list for PBXNativeTarget "Ghidrah-iOS" */;
+			buildPhases = (
+				B8A775D6093827C23C7CF019 /* [CP] Check Pods Manifest.lock */,
+				5B60B5E722BB8F6200DB4A24 /* Sources */,
+				5B60B5E822BB8F6200DB4A24 /* Frameworks */,
+				5B60B5E922BB8F6200DB4A24 /* Resources */,
+				A1CE0428DA9D0B0D7FA1017E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghidrah-iOS";
+			productName = "Ghidrah-iOS";
+			productReference = 5B60B5EB22BB8F6200DB4A24 /* Ghidrah-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B60B5E322BB8F6200DB4A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Emucoo;
+				TargetAttributes = {
+					5B60B5EA22BB8F6200DB4A24 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B60B5E622BB8F6200DB4A24 /* Build configuration list for PBXProject "Ghidrah-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B60B5E222BB8F6200DB4A24;
+			productRefGroup = 5B60B5EC22BB8F6200DB4A24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B60B5EA22BB8F6200DB4A24 /* Ghidrah-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B60B5E922BB8F6200DB4A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60B5FB22BB8F6200DB4A24 /* LaunchScreen.storyboard in Resources */,
+				5B60B5F822BB8F6200DB4A24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1CE0428DA9D0B0D7FA1017E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A775D6093827C23C7CF019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ghidrah-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B60B5E722BB8F6200DB4A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60B5F322BB8F6200DB4A24 /* ViewController.m in Sources */,
+				5B60B5FE22BB8F6200DB4A24 /* main.m in Sources */,
+				5B4758F722BC9226003A0A64 /* ModelViewController.m in Sources */,
+				5B4758F022BC8B92003A0A64 /* HUDViewController.m in Sources */,
+				5B47590422BCAE8F003A0A64 /* WeatherViewController.m in Sources */,
+				5B60B5F022BB8F6200DB4A24 /* AppDelegate.m in Sources */,
+				5B4758F422BC91D5003A0A64 /* UserModel.m in Sources */,
+				5B4758FE22BCAE71003A0A64 /* NetworkRequest.m in Sources */,
+				5B4758E222BC7416003A0A64 /* EMNetworkHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B60B5F922BB8F6200DB4A24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B60B5FA22BB8F6200DB4A24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B60B5FF22BB8F6200DB4A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B60B60022BB8F6200DB4A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B60B60222BB8F6200DB4A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BE1FE194A08C6679A377E7 /* Pods-Ghidrah-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCBW8CKASN;
+				INFOPLIST_FILE = "Ghidrah-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emucoo.Ghidrah-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B60B60322BB8F6200DB4A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D673EED92D719785090266 /* Pods-Ghidrah-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCBW8CKASN;
+				INFOPLIST_FILE = "Ghidrah-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emucoo.Ghidrah-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B60B5E622BB8F6200DB4A24 /* Build configuration list for PBXProject "Ghidrah-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60B5FF22BB8F6200DB4A24 /* Debug */,
+				5B60B60022BB8F6200DB4A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B60B60122BB8F6200DB4A24 /* Build configuration list for PBXNativeTarget "Ghidrah-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60B60222BB8F6200DB4A24 /* Debug */,
+				5B60B60322BB8F6200DB4A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B60B5E322BB8F6200DB4A24 /* Project object */;
+}

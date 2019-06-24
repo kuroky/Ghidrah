@@ -1,0 +1,66 @@
+{
+  "name": "Ghidrah",
+  "version": "0.0.1",
+  "summary": "魔兽基多拉",
+  "description": "哥斯拉(Project)的基础库集合",
+  "homepage": "http://www.emucoo.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuroky": "kuroky@emucoo.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "ssh://git@192.168.16.172:7990/em/ghidrah.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "dependencies": {
+    "GHNetwork": [
+      "1.0.0"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ],
+    "IQKeyboardManager": [
+      "6.3.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Model",
+      "source_files": "Classes/Model/*.{h,m}",
+      "dependencies": {
+        "YYModel": [
+          "1.0.4"
+        ]
+      }
+    },
+    {
+      "name": "HUD",
+      "source_files": "Classes/HUD/*.{h,m}",
+      "dependencies": {
+        "MBProgressHUD": [
+          "1.1.0"
+        ]
+      }
+    },
+    {
+      "name": "Category",
+      "source_files": "Classes/Category/*.{h,m}"
+    },
+    {
+      "name": "Tool",
+      "source_files": "Classes/Tool/*.{h,m}",
+      "dependencies": {
+        "CocoaLumberjack": [
+          "3.5.3"
+        ]
+      }
+    }
+  ]
+}

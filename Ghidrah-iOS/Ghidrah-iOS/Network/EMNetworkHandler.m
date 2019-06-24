@@ -53,10 +53,10 @@
                 @"respCode": @(408)};
     }
     GHNetworkResponse *reponse = [GHNetworkResponse new];
-    reponse.errMsg = dic[@"respMsg"];
-    reponse.respData = dic[@"data"];
-    id code = dic[@"respCode"];
-    NSInteger errCode = 408;
+    reponse.errMsg = @"respMsg";//dic[@"respMsg"];
+    reponse.respData = dic[@"results"];
+    id code = 0;//dic[@"respCode"];
+    NSInteger errCode = 0;//408;
     if ([code isKindOfClass:[NSNumber class]]) {
         errCode = [(NSNumber *)code integerValue];
     }

@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     NetworkRequest *request = [NetworkRequest new];
     request.key = @"S1zv0pRPYRYv20pI7";
     request.location = @"shanghai";

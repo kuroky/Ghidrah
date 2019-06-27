@@ -17,37 +17,37 @@ PODS:
   - CocoaLumberjack (3.5.3):
     - CocoaLumberjack/Core (= 3.5.3)
   - CocoaLumberjack/Core (3.5.3)
-  - Ghidrah (0.0.1):
-    - Ghidrah/Category (= 0.0.1)
-    - Ghidrah/HUD (= 0.0.1)
-    - Ghidrah/Model (= 0.0.1)
-    - Ghidrah/Tool (= 0.0.1)
+  - Ghidrah (1.0.0):
+    - Ghidrah/Category (= 1.0.0)
+    - Ghidrah/HUD (= 1.0.0)
+    - Ghidrah/Model (= 1.0.0)
+    - Ghidrah/Tool (= 1.0.0)
     - GHNetwork (= 1.0.0)
     - IQKeyboardManager (= 6.3.0)
     - Masonry (= 1.1.0)
     - MXCaches (= 1.0.0)
     - MXImageManager (= 1.1.1)
-  - Ghidrah/Category (0.0.1):
+  - Ghidrah/Category (1.0.0):
     - GHNetwork (= 1.0.0)
     - IQKeyboardManager (= 6.3.0)
     - Masonry (= 1.1.0)
     - MXCaches (= 1.0.0)
     - MXImageManager (= 1.1.1)
-  - Ghidrah/HUD (0.0.1):
+  - Ghidrah/HUD (1.0.0):
     - GHNetwork (= 1.0.0)
     - IQKeyboardManager (= 6.3.0)
     - Masonry (= 1.1.0)
     - MBProgressHUD (= 1.1.0)
     - MXCaches (= 1.0.0)
     - MXImageManager (= 1.1.1)
-  - Ghidrah/Model (0.0.1):
+  - Ghidrah/Model (1.0.0):
     - GHNetwork (= 1.0.0)
     - IQKeyboardManager (= 6.3.0)
     - Masonry (= 1.1.0)
     - MXCaches (= 1.0.0)
     - MXImageManager (= 1.1.1)
     - YYModel (= 1.0.4)
-  - Ghidrah/Tool (0.0.1):
+  - Ghidrah/Tool (1.0.0):
     - CocoaLumberjack (= 3.5.3)
     - GHNetwork (= 1.0.0)
     - IQKeyboardManager (= 6.3.0)
@@ -100,7 +100,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
-  Ghidrah: a744f97ee079277c1ae81a3ef8f8f3738e85fe98
+  Ghidrah: 90602c5d0d7ac75467a45da12daf7591d7429e07
   GHNetwork: 94c2e6297232bc6e85d5fe4f2f4df9bd523b1fea
   IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

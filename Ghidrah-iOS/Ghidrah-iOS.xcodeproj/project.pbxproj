@@ -18,6 +18,10 @@
 		5B60B5F822BB8F6200DB4A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B60B5F722BB8F6200DB4A24 /* Assets.xcassets */; };
 		5B60B5FB22BB8F6200DB4A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60B5F922BB8F6200DB4A24 /* LaunchScreen.storyboard */; };
 		5B60B5FE22BB8F6200DB4A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60B5FD22BB8F6200DB4A24 /* main.m */; };
+		5B80DAED22C4AB7100CDC973 /* CacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80DAE522C4AB7000CDC973 /* CacheModel.m */; };
+		5B80DAEE22C4AB7100CDC973 /* CacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80DAE622C4AB7000CDC973 /* CacheViewController.m */; };
+		5B80DAEF22C4AB7100CDC973 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80DAE822C4AB7000CDC973 /* ImageViewController.m */; };
+		5B80DAF022C4AB7100CDC973 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80DAEC22C4AB7000CDC973 /* LogViewController.m */; };
 		B59B00E9ADBDCE9D5C720FD5 /* Pods_Ghidrah_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C5A6DAD07442E306EFF26 /* Pods_Ghidrah_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,14 @@
 		5B60B5FA22BB8F6200DB4A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B60B5FC22BB8F6200DB4A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B60B5FD22BB8F6200DB4A24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B80DAE322C4AB7000CDC973 /* CacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheModel.h; sourceTree = "<group>"; };
+		5B80DAE422C4AB7000CDC973 /* CacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheViewController.h; sourceTree = "<group>"; };
+		5B80DAE522C4AB7000CDC973 /* CacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheModel.m; sourceTree = "<group>"; };
+		5B80DAE622C4AB7000CDC973 /* CacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheViewController.m; sourceTree = "<group>"; };
+		5B80DAE822C4AB7000CDC973 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		5B80DAE922C4AB7000CDC973 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		5B80DAEB22C4AB7000CDC973 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		5B80DAEC22C4AB7000CDC973 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		63D673EED92D719785090266 /* Pods-Ghidrah-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghidrah-iOS.release.xcconfig"; path = "Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		910C5A6DAD07442E306EFF26 /* Pods_Ghidrah_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghidrah_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BE1FE194A08C6679A377E7 /* Pods-Ghidrah-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghidrah-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Ghidrah-iOS/Pods-Ghidrah-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +84,9 @@
 		5B4758EB22BC8216003A0A64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B80DAE222C4AB7000CDC973 /* Cache */,
+				5B80DAE722C4AB7000CDC973 /* Image */,
+				5B80DAEA22C4AB7000CDC973 /* Log */,
 				5B4758F822BCAE71003A0A64 /* Weather */,
 				5B60B60522BB94C100DB4A24 /* Model */,
 				5B4758ED22BC8B6C003A0A64 /* HUD */,
@@ -154,6 +169,38 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5B80DAE222C4AB7000CDC973 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				5B80DAE322C4AB7000CDC973 /* CacheModel.h */,
+				5B80DAE422C4AB7000CDC973 /* CacheViewController.h */,
+				5B80DAE522C4AB7000CDC973 /* CacheModel.m */,
+				5B80DAE622C4AB7000CDC973 /* CacheViewController.m */,
+			);
+			name = Cache;
+			path = "Ghidrah-iOS/Classes/Cache";
+			sourceTree = SOURCE_ROOT;
+		};
+		5B80DAE722C4AB7000CDC973 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5B80DAE822C4AB7000CDC973 /* ImageViewController.m */,
+				5B80DAE922C4AB7000CDC973 /* ImageViewController.h */,
+			);
+			name = Image;
+			path = "Ghidrah-iOS/Classes/Image";
+			sourceTree = SOURCE_ROOT;
+		};
+		5B80DAEA22C4AB7000CDC973 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5B80DAEB22C4AB7000CDC973 /* LogViewController.h */,
+				5B80DAEC22C4AB7000CDC973 /* LogViewController.m */,
+			);
+			name = Log;
+			path = "Ghidrah-iOS/Classes/Log";
+			sourceTree = SOURCE_ROOT;
+		};
 		A2CEC3CABB5A71A6A073E1DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +220,7 @@
 				5B60B5E722BB8F6200DB4A24 /* Sources */,
 				5B60B5E822BB8F6200DB4A24 /* Frameworks */,
 				5B60B5E922BB8F6200DB4A24 /* Resources */,
-				A1CE0428DA9D0B0D7FA1017E /* [CP] Embed Pods Frameworks */,
+				16173C0B63BC27F8F3F9363A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +276,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A1CE0428DA9D0B0D7FA1017E /* [CP] Embed Pods Frameworks */ = {
+		16173C0B63BC27F8F3F9363A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,8 +328,12 @@
 				5B4758F022BC8B92003A0A64 /* HUDViewController.m in Sources */,
 				5B47590422BCAE8F003A0A64 /* WeatherViewController.m in Sources */,
 				5B60B5F022BB8F6200DB4A24 /* AppDelegate.m in Sources */,
+				5B80DAEF22C4AB7100CDC973 /* ImageViewController.m in Sources */,
+				5B80DAED22C4AB7100CDC973 /* CacheModel.m in Sources */,
 				5B4758F422BC91D5003A0A64 /* UserModel.m in Sources */,
+				5B80DAEE22C4AB7100CDC973 /* CacheViewController.m in Sources */,
 				5B4758FE22BCAE71003A0A64 /* NetworkRequest.m in Sources */,
+				5B80DAF022C4AB7100CDC973 /* LogViewController.m in Sources */,
 				5B4758E222BC7416003A0A64 /* EMNetworkHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

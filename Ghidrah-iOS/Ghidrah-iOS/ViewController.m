@@ -12,6 +12,9 @@
 #import "WeatherViewController.h"
 #import "HUDViewController.h"
 #import "ModelViewController.h"
+#import "LogViewController.h"
+#import "CacheViewController.h"
+#import "ImageViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -27,8 +30,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"首页";
     
-    
-    self.dataList = @[@"Network", @"HUD", @"Model"];
+    self.dataList = @[@"Network", @"Model", @"Cache", @"Image", @"HUD", @"Log"];
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];
@@ -68,6 +70,18 @@
     else if ([title isEqualToString:@"Model"]) {
         ModelViewController *model = [ModelViewController new];
         [self.navigationController pushViewController:model animated:YES];
+    }
+    else if ([title isEqualToString:@"Log"]) {
+        LogViewController *log = [LogViewController new];
+        [self.navigationController pushViewController:log animated:YES];
+    }
+    else if ([title isEqualToString:@"Cache"]) {
+        CacheViewController *cache = [CacheViewController new];
+        [self.navigationController pushViewController:cache animated:YES];
+    }
+    else if ([title isEqualToString:@"Image"]) {
+        ImageViewController *image = [ImageViewController new];
+        [self.navigationController pushViewController:image animated:YES];
     }
 }
 

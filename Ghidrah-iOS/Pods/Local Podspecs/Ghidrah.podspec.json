@@ -1,22 +1,22 @@
 {
   "name": "Ghidrah",
-  "version": "0.0.1",
-  "summary": "魔兽基多拉",
-  "description": "哥斯拉(Project)的基础库集合",
-  "homepage": "http://www.emucoo.com",
+  "version": "1.0.0",
+  "summary": "项目框架基础",
+  "description": "基础库集合",
+  "homepage": "https://github.com/kuroky",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "kuroky": "kuroky@emucoo.com"
+    "kuroky": "kuro2007cumt@gmail.com"
   },
   "platforms": {
     "ios": "11.0"
   },
   "source": {
-    "git": "ssh://git@192.168.16.172:7990/em/ghidrah.git",
-    "tag": "0.0.1"
+    "git": "ssh://https://github.com/kuroky/Ghidrah.git",
+    "tag": "1.0.0"
   },
   "source_files": "Classes/**/*.{h,m}",
   "dependencies": {

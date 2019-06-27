@@ -5,5 +5,9 @@ ${BUILT_PRODUCTS_DIR}/GHNetwork/GHNetwork.framework
 ${BUILT_PRODUCTS_DIR}/Ghidrah/Ghidrah.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MXCaches/MXCaches.framework
+${BUILT_PRODUCTS_DIR}/MXImageManager/MXImageManager.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
 ${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework

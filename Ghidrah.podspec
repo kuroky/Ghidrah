@@ -2,8 +2,8 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "Ghidrah"
-  spec.version      = "0.0.1"
-  spec.summary      = "魔兽基多拉"
+  spec.version      = "1.0.0"
+  spec.summary      = "项目框架基础"
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -11,21 +11,20 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  哥斯拉(Project)的基础库集合
-  DESC
+                  基础库集合
+                    DESC
   
-  spec.homepage     = "http://www.emucoo.com"
+  spec.homepage     = "https://github.com/kuroky"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author             = { "kuroky" => "kuroky@emucoo.com" }
+  spec.author             = { "kuroky" => "kuro2007cumt@gmail.com" }
   
   spec.platform     = :ios, "11.0"
   
-  spec.source       = { :git => "ssh://git@192.168.16.172:7990/em/ghidrah.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "ssh://https://github.com/kuroky/Ghidrah.git", :tag => "#{spec.version}" }
   
   spec.source_files = "Classes/**/*.{h,m}"
-  #spec.public_header_files = "Classes/Ghidrah.h"
   
   spec.subspec "Model" do |ss|
     ss.source_files = "Classes/Model/*.{h,m}"
@@ -46,9 +45,10 @@ Pod::Spec.new do |spec|
     ss.dependency "CocoaLumberjack", "3.5.3"
   end
   
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "GHNetwork",  "1.0.0"
   spec.dependency "Masonry", "1.1.0"
   spec.dependency "IQKeyboardManager", "6.3.0"
+  spec.dependency "MXCaches", "1.0.0"
+  spec.dependency "MXImageManager", "1.1.1"
   
 end

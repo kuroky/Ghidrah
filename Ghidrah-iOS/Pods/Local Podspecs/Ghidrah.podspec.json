@@ -28,6 +28,12 @@
     ],
     "IQKeyboardManager": [
       "6.3.0"
+    ],
+    "MXCaches": [
+      "1.0.0"
+    ],
+    "MXImageManager": [
+      "1.1.1"
     ]
   },
   "subspecs": [

@@ -18,7 +18,7 @@
 ```
 iOS 11.0
 
-pod 'GHNetwork', '1.0.0'
+pod 'Ghidrah', :git => 'ssh://git@192.168.16.172:7999/em/ghidrah.git' // 位于本地服务器
 ```
 
 ### 使用

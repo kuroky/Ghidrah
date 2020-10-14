@@ -5,7 +5,7 @@
 - ✅ 统一的模型解析处理，Response解析基类modle。
 - ✅ 单独接口Http请求的耗时检测。
 
-![提示](Resource/frames@3x.png)
+![提示](Resource/frames.png)
 
 ### 安装要求
 

@@ -18,7 +18,7 @@
 ```
 iOS 11.0
 
-pod 'Ghidrah', :git => 'ssh://git@192.168.16.172:7999/em/ghidrah.git' // 位于本地服务器
+pod 'Ghidrah', :git => 'ssh://git@192.168.16.172:7999/em/ghidrah.git' // 配置在本地服务器
 ```
 
 ### 使用
@@ -29,12 +29,21 @@ pod 'Ghidrah', :git => 'ssh://git@192.168.16.172:7999/em/ghidrah.git' // 位于�
 #import <Ghidrah/GHLaunchConfig.h>
 #import "EMNetworkHandler.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import <MXCaches/MXCache.h>
+#import <MXImageManager/MXImageCache.h>
 
 [GHLaunchConfig gh_launch];
 [GHLaunchConfig gh_setupNetwork:@"http://192.168.16.197:9093/"
                        security:nil
                        delegate:[EMNetworkHandler handler]];
+                       
+ // 缓存初始化
+[[MXCache sharedCache] mx_setCachePath:@""];
+[[MXCache sharedCache] mx_mCacheCount:100 mExpirytime:600 dExpirytime:86400];
+    
+// 图片缓存设置
+[MXImageCache mx_cancelSDMemoryCache];
 ```
 #### Demo
-见示例工程
+![shili](Resource/2020-10-15@3x.png)
 
